@@ -1,6 +1,6 @@
 var isDate = function (input) {
 
-	i if (input instanceof Date) {
+	 if (input instanceof Date) {
         return !isNaN(input.getTime());  // Valid Date object will return true, invalid false
     }
 
