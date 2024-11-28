@@ -7,9 +7,8 @@ var isDate = function (input) {
     // Try to parse the input as a date string
     const parsedDate = new Date(input);
     return !isNaN(parsedDate.getTime()); 
-  
 };    
 
-Do not change the code below.
+ 
 const input = prompt("Enter Date.");
 alert(isDate(input));
